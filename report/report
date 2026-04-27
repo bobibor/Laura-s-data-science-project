@@ -1,1 +1,41 @@
-
+Cardiovascular Risk: Lifestyle, Blood
+Pressure & Global Hypertension Context
+Final Exam Data Science Project - Technical Report
+Problem formulation
+This project investigates whether lifestyle and basic clinical indicators can explain and predict
+cardiovascular disease risk. The real-world problem is translated into a binary classification task:
+predicting whether cardiovascular disease is present.
+Data sources
+Source 1 is the Kaggle Cardiovascular Disease Dataset with patient-level clinical and lifestyle variables.
+Source 2 is the WHO / Our World in Data hypertension prevalence dataset, which provides country-level
+public-health context.
+Hypotheses
+H1: BMI and blood pressure increase risk. H2: Physical activity reduces risk. H3: Multivariable models
+outperform a single-factor baseline. H4: Patient-level blood-pressure signals align with global
+hypertension patterns.
+Mathematical background
+The project uses Pearson correlation, logistic regression, random forest classification, confusion
+matrices, ROC curves and ROC-AUC. Logistic regression estimates P(Y=1|X) using the sigmoid
+function.
+Methods
+The workflow includes data validation, clinical outlier filtering, feature engineering, exploratory analysis,
+model training, cross-validation, model comparison and interpretation.
+Evaluation
+Models are evaluated with accuracy, precision, recall, F1-score and ROC-AUC. A single-factor
+hypertension model is used as a baseline to test whether a multivariable model adds value.
+Limitations
+The data is observational, so the analysis does not prove causality. Patient-level and country-level data
+have different granularities and are used together for contextual interpretation, not direct row-level
+merging.
+Conclusion
+The project is designed to satisfy the exam requirements while also functioning as a portfolio-ready data
+science project. Its strength is the complete workflow: problem formulation, math, code, analysis,
+interpretation and documentation.
+Repository checklist
+Requirement Included
+Jupyter notebook Yes
+Two independent data sources Yes
+Math explanation Yes
+Python code Yes
+GitHub README Yes
+Presentation Yes
