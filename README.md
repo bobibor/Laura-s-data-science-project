@@ -89,19 +89,7 @@ Run all cells from top to bottom.
 - Feature importance
 - Global comparison with WHO/OWID hypertension prevalence
 
-## Suggested meaningful commits
 
-1. Initialize project structure
-2. Add project README and requirements
-3. Add raw data download instructions
-4. Add data cleaning section
-5. Add feature engineering section
-6. Add exploratory data analysis
-7. Add mathematical background
-8. Add baseline model
-9. Add model evaluation and comparison
-10. Add global hypertension context
-11. Add final conclusions and limitations
 12. Add presentation and final report
 
 ## Academic integrity
