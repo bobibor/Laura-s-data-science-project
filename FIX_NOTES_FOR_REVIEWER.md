@@ -6,7 +6,7 @@ Main fixes:
 - Restored `data/raw/cardio_train.csv` with 70,000 patient records.
 - Added executed notebook outputs and interpretation.
 - Added processed outputs under `data/processed/`.
-- Added figures under `reports/figures/`.
+- Added figures under `report/figures/`.
 
 Main results:
 - Cleaned rows: 68,596
